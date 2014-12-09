@@ -1,0 +1,57 @@
+text/html:
+  type: text
+  subtype: html
+
+application/vnd.oasis.opendocument.text:
+  type: application
+  tree: vnd
+  subtype: oasis.opendocument.text
+
+image/svg+xml:
+  type: image
+  subtype: svg
+  suffix: xml
+
+text/plain; charset=US-ASCII:
+  type: text
+  subtype: plain
+  parameters:
+    charset: US-ASCII
+
+application/vnd.etsi.asic-s+zip:
+  type: application
+  tree: vnd
+  subtype: etsi.asic-s
+  suffix: zip
+
+text/vnd.abc; charset=utf-8:
+  type: text
+  tree: vnd
+  subtype: abc
+  parameters:
+    charset: utf-8
+
+message/example ; foo=bar ; hello=" \"; world "; key= value:
+  type: message
+  subtype: example
+  parameters:
+    foo: bar
+    hello: ' "; world '
+    key: value
+
+application/vnd.adobe.xdp+xml; charset=utf-8:
+  type: application
+  tree: vnd
+  subtype: adobe.xdp
+  suffix: xml
+  parameters:
+    charset: utf-8
+
+application/vnd.adobe.xdp+xml ; charset=utf-8:
+  type: application
+  tree: vnd
+  subtype: adobe.xdp
+  suffix: xml
+  parameters:
+    charset: utf-8
+
