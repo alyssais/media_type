@@ -69,3 +69,7 @@ type1 == type2 #=> true
 3. Commit your changes (`git commit -am 'Add some feature'`)
 4. Push to the branch (`git push origin my-new-feature`)
 5. Create a new Pull Request
+
+---
+
+[ ![Codeship Status for alyssais/media_type](https://codeship.com/projects/36ec2d70-622e-0132-f3b2-3a888924fd85/status)](https://codeship.com/projects/52003)
