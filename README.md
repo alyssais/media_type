@@ -1,6 +1,6 @@
 # MediaType
 
-A tiny library for parsing Internet Media Types (AKA MIME types).
+A tiny library for parsing and generating Internet Media Types (AKA MIME types).
 
 ## Installation
 
