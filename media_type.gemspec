@@ -1,16 +1,15 @@
 # coding: utf-8
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'media_type/version'
+require 'media_type'
 
 Gem::Specification.new do |spec|
   spec.name          = "media_type"
   spec.version       = MediaType::VERSION
   spec.authors       = ["Alyssa Ross"]
   spec.email         = ["hi@alyssa.is"]
-  spec.summary       = %q{TODO: Write a short summary. Required.}
-  spec.description   = %q{TODO: Write a longer description. Optional.}
-  spec.homepage      = ""
+  spec.summary       = %q{A library for parsing and generating Internet Media (MIME) Types}
+  spec.homepage      = "https://github.com/alyssais/media_type"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0")
