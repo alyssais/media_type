@@ -25,7 +25,7 @@ Or install it yourself as:
 ```ruby
 media_type = MediaType.parse("application/vnd.adobe.xdp+xml; charset=utf-8")
 media_type.type #=> "application"
-media_type.tree #=> "vendor"
+media_type.tree #=> "vnd"
 media_type.subtype #=> "adobe.xdp"
 media_type.suffix #=> "xml"
 media_type.parameters #=> {"charset"=>"utf-8"}
@@ -44,7 +44,7 @@ media_type.parameters #=> " charset=US-ASCII"
 ```ruby
 media_type = MediaType.new
 media_type.type = "application"
-media_type.tree = "vendor"
+media_type.tree = "vnd"
 media_type.subtype = "adobe.xdp"
 media_type.suffix = "xml"
 media_type.parameters = { "charset" => "utf-8" }
