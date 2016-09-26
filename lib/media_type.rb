@@ -1,5 +1,5 @@
 class MediaType < Struct.new(:type, :tree, :subtype, :suffix, :parameters)
-  VERSION = "1.0.0"
+  VERSION = "1.0.1"
   MATCHER = /\A([^\/]+)\/(?:([^\.\+;]+)\.)?([^\s\+;]+)(?:\+([^\s;]+))?\s*(?:;(.*))?\Z/
 
   def initialize(*args)
